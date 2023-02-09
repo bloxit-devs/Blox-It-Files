@@ -1,0 +1,45 @@
+DOCUMENTS SECURELY STORED IN QUANTIX'S LONG TERM BIOLOGICAL STORAGE DEVICE
+STORED AT [REDACTED] IN CELL [REDACTED] USING THE [REDACED] ENCRYPTION
+STANDARD.
+
+ENTITIES FOUND IN POSSESSION OF ANY CLASSIFIED DOCUMENTS OUTSIDE OF [REDACTED]
+ARE TO BE [REDACTED].
+
+[REDACTED] Naming Standard:
+Documents shall follow the following naming scheme:
+[DOCUMENT TYPE]-[ID]-...[ID2]
+
+Field values:
+[DOCUMENT TYPE]:
+INCIDENT - An incident/event that has been recorded
+ENTITY - A dossier on an entity
+
+[ID] - A unique value given to the document in it's "namespace" (in this case,
+       [DOCUMENT TYPE])
+
+[ID2] - A unique value if preceeding fields will be used for a namespace
+        (e.g. ENTITY-0-0, ENTITY-0-1, ...)
+
+Classifications:
+CONFIDENTIAL
+RESTRICTUED
+CONFIDENTIAL-RESTRICTED
+SECRET
+TOP SECRET
+NULL
+
+Special files:
+README - This file
+ENTITIES - Contains a list of unique identifiers for entities; it shall be in
+           the following format:
+           [C] [ID] [EID] [NAME], [NAME], .. [NAME]
+
+           [C] shall be a counter which will be incremented per entry
+           [ID] and [EID] shall be unique ids
+
+INCIDENT-0 - Shall define the file format for incident reports
+ENTITY-0 - Shall define the file format for entity dossiers
+INCIDENT-1-0 - Example
+ENTITY-1-0 - Example
+
+Special directories:

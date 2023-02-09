@@ -1,0 +1,35 @@
+If fields aren't applicable, they may be ignored.
+INCIDENT-[ID]-0 shall be in the following format:
+[CODENAME]
+[MAIN ENTITY ID]
+[MAIN ENTITY NAME]
+[CLASSIFICATION LEVEL]
+[AUTHORISATION]
+[DATE OF ACQUISITION]
+[DATE OF INCIDENT]
+[LOCATION OF INCIDENT]
+[INVOLVED ENTITIES]
+
+[DESCRIPTION]
+[NOTES]
+
+INCIDENT-[ID]-[N] should be in a similar format if possible but may assume that
+anyone reading has read INCIDENT-[ID]-0 and INCIDENT-[ID]-[N] shall have the
+same classification as INCIDENT-[ID]-0 unless otherwise stated.
+
+Field values:
+[CODENAME] - A name given to an incident
+[MAIN ENTITY ID] - A unique identifier for the entity in question.
+[MAIN ENTITY NAME] - The name given to the entity, if one exists.
+[CLASSIFICATION LEVEL] - The level of security required for the entity.
+[AUTHORISATION] - ID of the [REDACTED] officer which has authorised, redacted
+and classified this document.
+[DATE OF ACQUISITION] - Date information on the entity was acquire.
+[DATE OF INCIDENT] - Date on which the incident occurred.
+[LOCATION OF INCIDENT] - Where the incident occurred.
+[INVOLVED ENTITIES] - A list of involved entities and individuals.
+[DEATHS] - Information about deaths.
+[INJURIES] - Information about injuries.
+[DESCRIPTION] - A detailed description of the entity, including its physical
+appearance and any unique abilities it may possess.
+[NOTES] - Additional notes or observations made.

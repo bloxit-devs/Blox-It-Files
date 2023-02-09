@@ -1,0 +1,38 @@
+If fields aren't applicable, they may be ignored.
+ENTITY-[ID]-0 shall be in the following format:
+[ENTITY ID]
+[ENTITY NAME]
+[CLASSIFICATION LEVEL]
+[AUTHORISATION]
+[DATE OF ACQUISITION]
+
+[DESCRIPTION]
+[PHYSICAL CHARACTERISTICS]
+[BEHAVIORAL ANALYSIS]
+[KNOWN THREATS]
+[CONTAINMENT PROCEDURES]
+[NOTES]
+
+ENTITY-[ID]-[N] should be in a similar format if possible but may assume that
+anyone reading has read ENTITY-[ID]-0 and ENTITY-[ID]-[N] shall have the same
+classification as ENTITY-[ID]-0 unless otherwise stated.
+
+Field values:
+[ENTITY ID] - A unique identifier for the entity in question.
+[ENTITY NAME] - The name given to the entity, if one exists.
+[CLASSIFICATION LEVEL] - The level of security required for the entity.
+[AUTHORISATION] - ID of the [REDACTED] officer which has authorised, redacted
+and classified this document.
+[DATE OF ACQUISITION] - Date information on the entity was acquire.
+[DESCRIPTION] - A detailed description of the entity, including its physical
+appearance and any unique abilities it may possess.
+[PHYSICAL CHARACTERISTICS] - Information on the entity's size, weight, and any
+other relevant physical characteristics.
+[BEHAVIORAL ANALYSIS] - A description of the entity's behavior and any observed
+patterns.
+[KNOWN THREATS] - A list of any potential threats posed by the entity, both to
+individuals and to the organization.
+[CONTAINMENT PROCEDURES] - Detailed instructions for containing the entity,
+including any necessary precautions or special considerations.
+[NOTES] - Additional notes or observations made by those who have come into
+contact with the entity.
